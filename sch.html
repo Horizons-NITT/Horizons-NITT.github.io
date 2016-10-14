@@ -70,9 +70,38 @@ font-size: 20px;
       0px -10px 100px #7B96B8,
       0px -10px 100px #7B96B8;}
 }
+.button
+{
+position: absolute;
+top: 6%;
+left: 2%;
+background-color: white;
+border: 5px inset rgb(153,0,204);
+color: black;
+padding: 10px;
+text-align: center;
+font-size: 15px;
+margin: 3px;
+cursor: pointer;
+transition-duration: 0.5sec;
+}
+
+.button:hover
+{
+background-color: rgb(225,225,225);
+color: black;
+border: 5px outset rgb(200,100,100);
+}
 </style>
+<script type="text/javascript">
+function back()
+{
+  history.go(-1);
+}
+</script>
 </head>
 <body>
+<button type="button" class="button" onclick="back()">Back</button>
 <span style="color:white">
 <div class="area">
  HORIZONS '16
