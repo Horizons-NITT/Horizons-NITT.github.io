@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+</head>
+<body>
+<style>
+body
+{
+	background: black;
+}
+p
+{
+	color:lime;
+	font-style: chiller;
+	font-size: 50px;
+	text-align: center;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+</style>
+<p id="hi">
+</p>
+<script src="jquery-3.1.1.js"></script>
+<script src="typed.js"></script>
+<script>
+	$(function(){
+      $("#hi").typed({
+        strings: ["HORIZONS is an annual inter-departmental competition, <br/>organised by the Rotaract Club of NIT-Trichy, <br/> exclusively for the Second yearies.","<br/>Horizons'16, is organised by:","<br/><br/><br/>Nandhini","<br/><br/><br/>Manasvi","<br/><br/><br/>Swapna","<br/><br/><br/>Dillu","<br/><br/><br/>Rajneesh","<br/><br/><br/>Sahib","<br/><br/><br/>Akhil","<br/><br/><br/>Satyanarayanan","<br/><br/><br/>Lingesh","<br/><br/><br/>Arshath","<br/><br/><br/>Sriram.G (&#9812;)"],
+        typeSpeed: 0
+      });
+  });
+</script>
+</body>
+</html>
