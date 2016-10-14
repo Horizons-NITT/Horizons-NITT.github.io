@@ -96,7 +96,35 @@ background-color: rgb(225,225,225);
 color: black;
 border: 5px outset rgb(200,100,100);
 }
+.button3
+{
+position: absolute;
+top: 60%;
+left: 47.7%;
+background-color: white;
+border: 5px inset rgb(153,0,204);
+color: black;
+padding: 10px;
+text-align: center;
+font-size: 15px;
+margin: 3px;
+cursor: pointer;
+transition-duration: 0.5sec;
+}
+
+.button3:hover
+{
+background-color: rgb(225,225,225);
+color: black;
+border: 5px outset rgb(200,100,100);
+}
 </style>
+<script type="text/javascript">
+function back()
+{
+    history.go(-1);
+}
+</script>
 <span style="color:white">
 <body background= "bg.jpg">
 
@@ -109,8 +137,9 @@ border: 5px outset rgb(200,100,100);
 <button class="button1" type="button">Schedule</button>
 </a>
 <a href="score.html">
-<button class="button2" type="button">Score-Card</button>
+<button class="button2" type="button">Points-Table</button>
 </a>
+<button type="button" class="button3" onclick="back()">Back</button>
 <br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br>
