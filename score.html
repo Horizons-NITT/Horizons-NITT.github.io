@@ -11,7 +11,7 @@ body{
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 75%;
 }
 
 td, th {
@@ -70,15 +70,44 @@ font-size: 20px;
       0px -10px 100px #7B96B8,
       0px -10px 100px #7B96B8;}
 }
+.button
+{
+position: absolute;
+top: 6%;
+left: 2%;
+background-color: white;
+border: 5px inset rgb(153,0,204);
+color: black;
+padding: 10px;
+text-align: center;
+font-size: 15px;
+margin: 3px;
+cursor: pointer;
+transition-duration: 0.5sec;
+}
+
+.button:hover
+{
+background-color: rgb(225,225,225);
+color: black;
+border: 5px outset rgb(200,100,100);
+}
 </style>
+<script type="text/javascript">
+function back()
+{
+  history.go(-1);
+}
+</script>
 </head>
 <body>
+<button type="button" class="button" onclick="back()">Back</button>
 <span style="color:white">
 <div class="area">
  HORIZONS '16
 </div>
 <h1> POINTS - TABLE </h1>
-<table>
+<table align="center">
 <col width="200">
 <col width="200">
 <col width="200">
@@ -155,16 +184,16 @@ font-size: 20px;
   <tr>
     <td>4</td>
     <td>Cricket</td>
-    <td>NA</td>
-    <td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
+    <td>0</td>
+    <td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td><span style="color:red"><strong>8</strong></span></td>
+<td>0</td>
+<td><span style="color:red"><strong>6</strong></span></td>
+<td>0</td>
+<td><span style="color:red"><strong>4</strong></span></td>
   </tr>
 <tr>
 <td colspan="12"><marquee>
@@ -788,11 +817,11 @@ font-size: 20px;
 <td><span style="color:orange"><strong>13</strong></span></td>
 <td><span style="color:orange"><strong>0</strong></span></td>
 <td><span style="color:orange"><strong>6</strong></span></td>
+<td><span style="color:orange"><strong>16</strong></span></td>
+<td bgcolor="#66DDFF"><span style="color:magenta"><strong>21</strong></span></td>
+<td bgcolor="#00FFAA"><span style="color:magenta"><strong>25</strong></span></td>
 <td><span style="color:orange"><strong>8</strong></span></td>
-<td bgcolor="#00FFAA"><span style="color:magenta"><strong>21</strong></span></td>
-<td bgcolor="#66DDFF"><span style="color:magenta"><strong>19</strong></span></td>
-<td><span style="color:orange"><strong>8</strong></span></td>
-<td><span style="color:magenta"><strong>17</strong></span></td>
+<td bgcolor="#66DDFF"><span style="color:magenta"><strong>21</strong></span></td>
 </tr>
 <tr>
     <th></th>
